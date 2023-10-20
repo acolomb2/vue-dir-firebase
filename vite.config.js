@@ -7,7 +7,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: "https://acolomb2.github.io/vue-company-directory/",
+  base: "https://acolomb2.github.io/vue-dir-firebase/",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
