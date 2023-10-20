@@ -8,7 +8,7 @@ import NotFound from '@/components/NotFound.vue'
 import SettingsPage from '@/components/SettingsPage.vue'
 
 const routes = [
-  { path: '/', name: 'Home', component: MainPage },
+  { path: '/vue-company-directory', name: 'Home', component: MainPage },
   { path: '/login', name: 'Login', component: LoginPage },
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
   { path: '/settings', name: 'Settings', component: SettingsPage, meta: { requiresAuth: true } },
